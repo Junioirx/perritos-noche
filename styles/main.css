@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background: brown;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    position: fixed;
+    top:0;  
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+    
+header a{
+    color:white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    font-size: 24px;
+
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+
+}
+header ul li{
+    margin-left: 20px;
+}
+
+/**main**/
+
+
+main{
+    margin-top: 64px;
+    display: block;
+}
+.banner{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.banner img{
+    margin-top: -20px;
+    width: 100%;
+}
+
+.banner .text{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 18%;
+}
+.banner .text:hover{
+    background: green;
+}
+
+.banner .text h1 p {
+    margin-bottom: 10px;
+
+}
+.banner .text a{
+    margin-top: 10px;
+    display: inline-block;
+}
+.banner .text p{
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h1 h2 h3 {
+    font-family: verdana;
+    margin-bottom: 20px;
+    
+}
+.banner p{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/**club**/
+.club{
+    background: #e6faff;
+    padding: 20px 0;
+    text-align: center;
+}
+h1 h2 h3{
+    font-family: verdana;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 20px;
+    margin-bottom: 20px;    
+}
+b {
+
+    font-weight: bold;
+}
+
+.club p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.club .blog div{
+    display: flex;
+    justify-content: space-around;
+}
+.club img{
+    margin-bottom: 10px;
+}
+
+/**pets**/
+
+.pets {
+    text-align: center;
+    background: #e3e2ff;
+    padding: 20px 0;
+    margin: 20px 0;
+
+}
+.pets div{
+    display: flex;
+    justify-content: space-around;
+
+}
+ 
+.pets img{
+    margin-bottom: 10px;
+    border-radius: 100%;
+    border:5px solid white;
+}
+.pets img:hover{
+    border: 5px solid orange;
+}
+
+/**footer**/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: brown;
+}
+    
+
+footer ul{
+    display: flex;
+}
+
+footer li{
+    margin-left: 20px;
+}
+footer a{
+    color: white;
+}
